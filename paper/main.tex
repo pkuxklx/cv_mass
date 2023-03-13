@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+
+% math operators
+\newcommand{\E}{\mathbf{E}}
+
+\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{4} % how many sectioning levels to show in ToC
+
+
+\title{Your Paper 中文}
+\author{陆翔}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    这是摘要
+\end{abstract}
+
+\newpage
+\begin{center}
+    \tableofcontents
+\end{center}
+
+\newpage
+\section{介绍}
+\input{ch1.tex}
+
+% \newpage
+\section{原理与方法}
+\subsection{数据收集}
+% \subsection{利用图像分析估计每只猪的体重的原理}
+
+\input{ch2_methods.tex}
+
+\newpage
+\section{实验}
+
+\section{结论与展望}
+
+\end{document}
