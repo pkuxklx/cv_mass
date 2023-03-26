@@ -1,0 +1,65 @@
+\subsection{图像分割}
+% 讲述遇到的困难：轮廓重叠，
+\subsubsection{基于最小二乘法的椭圆拟合}
+我们使用椭圆来近似猪的俯视图。椭圆可以用二阶多项式方程的解表示：
+\begin{equation}
+    F_{\bf a}(x,y) = {\bf x^T a} = 0 \text{ 且 } {\bf a^T C  a} > 0  
+\end{equation} 
+% 花括号{}限定了\bf的作用域
+其中
+\begin{eqnarray}
+    \bf{a} &=& [a,b,c,d,e,f]^T \\
+    \bf x &=& [x^2,xy,y^2,x,y,1]^T \\
+    {\bf C} &=& \begin{pmatrix}
+        \begin{pmatrix}
+            0 & 0 & 2 \\
+            0 & -1 & 0 \\
+            2 & 0 & 0
+        \end{pmatrix} & O_{3\times 3} \\
+        O_{3\times 3} & O_{3\times 3}
+    \end{pmatrix}_{6\times 6}
+\end{eqnarray}
+为了唯一确定系数，我们规定
+\begin{equation}
+    {\bf a^T C a} - 1 = 0  
+    \label{constraint}
+\end{equation}
+
+对于某组轮廓的点集$\{(x_i, y_i)|i=1,\dots, N \}$，记数据矩阵
+\begin{equation}
+    \bf X = \begin{pmatrix}
+        x_1^2 & x_1y_1 & y_1^2 & x_1 & y_1 & 1 \\
+        \vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
+        x_i^2 & x_iy_i & y_i^2 & x_i & y_i & 1 \\
+        \vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
+        x_N^2 & x_Ny_N & y_N^2 & x_N & y_N & 1 \\
+    \end{pmatrix} 
+\end{equation}
+，则$\bf a$的最小二乘估计为
+\begin{equation}
+    \hat {\bf a}_{OLS} = \arg \min_{\bf a} \|{\bf X a }\|^2 \ \text{s.t.} \ {\bf a^T C a} - 1 = 0
+\end{equation}
+这是一个带约束的优化问题，使用拉格朗日乘子法求解
+\begin{equation}
+    f({\bf a}, \lambda) = \|{\bf Xa}\|^2 + \lambda (1 - {\bf a^T C a}) 
+\end{equation}
+令$f$的偏导数为0，我们得到方程组(\label{system Eqns})
+\begin{equation}
+    \left\{
+    \begin{aligned}
+        {\bf X^T X a} &=& \lambda {\bf Ca} \\
+        {\bf a^T C a} &=& 1  
+    \end{aligned}
+    \right.
+    \label{system Eqns} 
+\end{equation}
+注意到对于(\ref{system Eqns})的解，有$\|\bf{X a}\|^2 = \lambda$。所以多组解中，与$\lambda$的最小非负解对应的$\bf a$即为所求的$\hat {\bf a}_{OLS}$。
+
+\subsubsection{基于聚类选取最佳椭圆}
+
+
+% \subsection{ID检测}
+% \subsubsection{提取ID标识}
+% \subsubsection{基于傅里叶变换的ID匹配}
+
+

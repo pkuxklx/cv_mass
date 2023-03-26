@@ -1,4 +1,4 @@
-\subsection{定位和图像分割}
+\subsection{预处理}
 这一章节的总流程图，见图\ref{fig-steps}。
 \begin{figure}[htbp]
     \centering
@@ -33,9 +33,17 @@
     \label{discrete global HE}
 \end{equation}
 
-假如$L$足够大时，我们可将离散的灰度$i$近似处理为连续变量。从图片中随机取一点，记对应的连续随机变量为$X\in[0,L]$，概率密度函数为$p(x)$。式(\ref{discrete global HE})对应的
+假如$L$足够大时，我们可将离散的灰度$i$近似处理为连续变量。从图片中随机取一点，记对应的连续随机变量为$X\in[0,L-1]$，概率密度函数为$p_X(x)$，概率累积函数为$F_X(x)$。式(\ref{discrete global HE})对应的变换为
+\begin{equation}
+    Y:= H(X) = (L-1) F_X(X)
+\end{equation}
+计算$Y$的概率密度函数
+\begin{equation}
+    p_Y(y) = p_X(x) |\frac{dH(x)}{dx}|^{-1} = \frac{1}{L-1},\ y\in[0,L-1]
+\end{equation} 
+可见无论$X$分布如何，经过该变换，$Y$满足均匀分布，更好利用了灰度值范围，图片的对比度增强。但由于实际的灰度是离散的，只能使得新图片的灰度直方图大致均匀。
 
-然而传统的全局直方图均衡算法有明显的缺点。xxx
+当原图片的灰度取值范围较小时，传统的全局直方图均衡算法表现较好；但当灰度取值范围较大时，则不然。
 
 而局部自适应的xxx，其方法如下。
 
@@ -81,12 +89,3 @@
     \end{cases}
 \end{equation}
 
-\subsubsection{基于椭圆拟合的图像分割}
-
-
-\subsection{ID检测}
-\subsubsection{提取ID标识}
-\subsubsection{基于傅里叶变换的ID匹配}
-
-\subsection{体重估计}
-\subsubsection{线性回归分析}
