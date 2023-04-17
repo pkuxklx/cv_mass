@@ -10,7 +10,8 @@
 \contentsline {subsubsection}{\numberline {2.2.3}基于Otsu算法的图像二值化}{4}%
 \contentsline {subsection}{\numberline {2.3}图像分割}{6}%
 \contentsline {subsubsection}{\numberline {2.3.1}基于最小二乘法的椭圆拟合}{6}%
-\contentsline {subsubsection}{\numberline {2.3.2}基于聚类选取最佳椭圆}{7}%
+\contentsline {subsubsection}{\numberline {2.3.2}椭圆预筛选准则}{7}%
+\contentsline {subsubsection}{\numberline {2.3.3}基于K-Means聚类分离轮廓重叠的猪}{7}%
 \contentsline {subsection}{\numberline {2.4}体重估计}{7}%
 \contentsline {subsubsection}{\numberline {2.4.1}线性回归分析}{7}%
 \contentsline {section}{\numberline {3}实验}{8}%

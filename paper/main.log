@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.15)  26 MAR 2023 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.15)  10 APR 2023 15:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/COURSES/diploma_proj/cv_mass/paper/main.tex
-(d:/COURSES/diploma_proj/cv_mass/paper/main.tex
+**d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/main.tex
+(d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/main.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (d:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -299,7 +299,7 @@ File: UTF8.bdg 2015/04/18 4.8.4
 File: UTF8.enc 2015/04/18 4.8.4
 ) (d:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
-) (d:/COURSES/diploma_proj/cv_mass/paper/main.aux
+) (d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/main.aux
 
 LaTeX Warning: Label `system Eqns' multiply defined.
 
@@ -410,7 +410,7 @@ LaTeX Font Info:    Trying to load font information for C70+rm on input line 22.
 File: c70rm.fd 2019/05/29 v2.4.16 Chinese font definition (CTEX)
 ) [1
 
-] (d:/COURSES/diploma_proj/cv_mass/paper/main.toc
+] (d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/main.toc
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 2.
@@ -419,30 +419,35 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2] (d:/COURSES/diploma_proj/cv_mass/paper/ch1.tex) (d:/COURSES/diploma_proj/cv_mass/paper/ch2.2.tex
+ [2] (d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/ch1.tex) (d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/ch2.2.tex
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 2.
-<pic/steps.png, id=125, 589.4522pt x 195.73125pt>
+<pic/steps.png, id=127, 589.4522pt x 195.73125pt>
 File: pic/steps.png Graphic file (type png)
 <use pic/steps.png>
 Package pdftex.def Info: pic/steps.png  used on input line 5.
 (pdftex.def)             Requested size: 310.4979pt x 103.1039pt.
-<pic/before_cut.jpg, id=131, 212.97266pt x 170.1223pt>
+<pic/before_cut.jpg, id=133, 212.97266pt x 170.1223pt>
 File: pic/before_cut.jpg Graphic file (type jpg)
 <use pic/before_cut.jpg>
 Package pdftex.def Info: pic/before_cut.jpg  used on input line 15.
 (pdftex.def)             Requested size: 152.14566pt x 121.53526pt.
-<pic/after_cut.png, id=132, 263.0628pt x 201.6333pt>
+<pic/after_cut.png, id=134, 263.0628pt x 201.6333pt>
 File: pic/after_cut.png Graphic file (type png)
 <use pic/after_cut.png>
 Package pdftex.def Info: pic/after_cut.png  used on input line 20.
 (pdftex.def)             Requested size: 152.14566pt x 116.62126pt.
- [3 <d:/COURSES/diploma_proj/cv_mass/paper/pic/steps.png>] [4 <d:/COURSES/diploma_proj/cv_mass/paper/pic/before_cut.jpg> <d:/COURSES/diploma_proj/cv_mass/paper/pic/after_cut.png>]
+ [3 <d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/pic/steps.png>] [4 <d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/pic/before_cut.jpg> <d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/pic/after_cut.png>]
 Overfull \hbox (10.55748pt too wide) in paragraph at lines 59--61
 \C70/rm/m/n/10.53937/8f Ù \C70/rm/m/n/10.53937/68 7 \C70/rm/m/n/10.53937/76 „ \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/7c { \C70/rm/m/n/10.53937/4e ^^N$\OML/cmm/m/it/10.53937 k$\C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/51 s|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/4f F \C70/rm/m/n/10.53937/4e : † \C70/rm/m/n/10.53937/7b & \C70/rm/m/n/10.53937/53 ÷ \C70/rm/m/n/10.53937/4e 
  \C70/rm/m/n/10.53937/76 „ \C70/rm/m/n/10.53937/7b € \C70/rm/m/n/10.53937/6d ^^A|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/4e å  \C70/rm/m/n/10.53937/5c ^^F \C70/rm/m/n/10.53937/53 Â \C70/rm/m/n/10.53937/65 p$\OML/cmm/m/it/10.53937 k$\C70/rm/m/n/10.53937/75 e \C70/rm/m/n/10.53937/53 »|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/4f ‹ \C70/rm/m/n/10.53937/59 ‚$[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 c[]\OT1/cmr/m/n/10.53937 ) :=
  []
 
-) (d:/COURSES/diploma_proj/cv_mass/paper/ch2.3.tex [5] [6]) (d:/COURSES/diploma_proj/cv_mass/paper/ch2.4.tex) [7] [8] (d:/COURSES/diploma_proj/cv_mass/paper/main.aux)
+) (d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/ch2.3.tex [5] [6]
+Overfull \hbox (0.92546pt too wide) in paragraph at lines 70--71
+[]\C70/rm/m/n/10.53937/4e Œ \C70/rm/m/n/10.53937/50 < \C70/rm/m/n/10.53937/53 ^^V \C70/rm/m/n/10.53937/56 þ \C70/rm/m/n/10.53937/50 Ï \C70/rm/m/n/10.53937/76 „ \C70/rm/m/n/10.53937/6b Ï \C70/rm/m/n/10.53937/4e ^^@ \C70/rm/m/n/10.53937/7e Ä \C70/rm/m/n/10.53937/8f n \C70/rm/m/n/10.53937/5e Ó \C70/rm/m/n/10.53937/53 ï \C70/rm/m/n/10.53937/80 ý \C70/rm/m/n/10.53937/75 1 \C70/rm/m/n/10.53937/59 ^^Z \C70/rm/m/n/10.53937/53 ê \C70/rm/m/n/10.53937/73 * \C70/rm/m/n/10.53937/7e Ä \C70/rm/m/n/10.53937/62 ^^P|\C70/rm/m/n/10.53937/30 ^^B| \C70/rm/m/n/10.53937/56 à \C70/rm/m/n/10.53937/6b d \C70/rm/m/n/10.53937/62 ^^Q \C70/rm/m/n/10.53937/90 	 \C70/rm/m/n/10.53937/62 é \C70/rm/m/n/10.53937/75 (\OT1/cmr/m/n/10.53937 K-Means\C70/rm/m/n/10.53937/80 Z
+ []
+
+) (d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/ch2.4.tex) [7] [8] (d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -452,18 +457,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6911 strings out of 480608
- 116574 string characters out of 5907536
+ 6998 strings out of 480608
+ 118057 string characters out of 5907536
  347216 words of memory out of 5000000
- 22349 multiletter control sequences out of 15000+600000
- 585281 words of font info for 217 fonts, out of 8000000 for 9000
+ 22425 multiletter control sequences out of 15000+600000
+ 587171 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,52p,531b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on d:/COURSES/diploma_proj/cv_mass/paper/main.pdf (8 pages, 859200 bytes).
+ 46i,18n,52p,545b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on d:/BaiduSyncdisk/COURSES/diploma_proj/cv_mass/paper/main.pdf (8 pages, 888192 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 396 compressed objects within 4 object streams
+ 627 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

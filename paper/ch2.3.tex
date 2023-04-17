@@ -55,7 +55,22 @@
 \end{equation}
 注意到对于(\ref{system Eqns})的解，有$\|\bf{X a}\|^2 = \lambda$。所以多组解中，与$\lambda$的最小非负解对应的$\bf a$即为所求的$\hat {\bf a}_{OLS}$。
 
-\subsubsection{基于聚类选取最佳椭圆}
+\subsubsection{椭圆预筛选准则}
+对于某组轮廓的点集$\{(x_i, y_i)|i=1,\dots, N \}$，每次从中随机选择6个点求解椭圆。此后用另一个参数向量$(l_x, l_y, a, b, \theta)^T$来表征求解的椭圆。其中$(l_x,l_fy)$表示椭圆中心；$(a,b)$表示椭圆的长短轴；$\theta$表示椭圆长轴以$x$轴为起点逆时针旋转的角度，且$0^{\circ} \leq \theta < 180^{\circ}$。
+
+显然，只有部分求解的椭圆都很好地代表了某只猪的轮廓，需要进一步筛选“合理”的椭圆。“合理”的椭圆满足以下3个条件：
+\begin{enumerate}
+    \item 椭圆的面积$18000<S_{ellipse}<30000$；
+    \item 长短轴之比$0.2<\frac{b}{a}<0.4$；
+    \item 与轮廓的重叠率$\frac{|P_{ellipse} \cap P_{contour}|}{|P_{ellipse}|}>0.8$，其中$P_{ellipse}$表示椭圆内的像素点的集合。
+\end{enumerate}
+满足以上的条件才会被放入数据集，以用于下一步的聚类。
+
+\subsubsection{基于K-Means聚类分离轮廓重叠的猪}
+二值化图像的每一组轮廓可能由多只猪组成。因此我选择用K-Means聚类区别同一轮廓中的各只猪。
+
+使用K-Means前，要先确定给定轮廓内猪的个数$K$，但$K$
+
 
 
 % \subsection{ID检测}

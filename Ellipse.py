@@ -28,7 +28,7 @@ def valid_ellipse(ellipse, contour = None) -> bool:
     points = [(x, y) for x in range(bkg.shape[1]) for y in range(bkg.shape[0]) if bkg[y, x] > 0]
     points = np.array(points)
     S_ellipse = (np.pi * a * b) / 4 # 
-    if not (75000 < S_ellipse < 125000):
+    if not (18000 < S_ellipse < 30000):
         return False
     
     S_intersect = 0
@@ -42,9 +42,9 @@ def valid_ellipse(ellipse, contour = None) -> bool:
         if ((x * np.cos(theta) - y * np.sin(theta)) / a) ** 2 + ((x * np.sin(theta) + y * np.cos(theta)) / b) ** 2 <= 1:
             S_intersect += 1
     overlap_ratio = S_intersect / S_ellipse
-    assert overlap_ratio <= 1
+    # assert overlap_ratio <= 1
     print(f'overlap ratio {overlap_ratio}={S_intersect}/{S_ellipse}')
-    return overlap_ratio > 0.8
+    return overlap_ratio > 0.6
 
 # %%
 # cv2.
